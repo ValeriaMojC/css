@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1548179144/content-items/002/734/538/Paso_6-original.jpg?1548179144");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    /*
+    background: rgb(208,34,155);
+    background: linear-gradient(90deg, rgba(208,34,155,0.8746849081429446) 0%, rgba(119,34,158,0.8718837876947654) 50%, rgba(37,38,158,0.8690826672465861) 100%);
+    */
+}
+
+.title {
+    /*Solo alinea texto*/
+    text-align: center;
+
+    color: pink;
+    background-color: rgb(0, 0, 0);
+    border: 5px double pink;
+}
+
+.subtitle{
+    text-align: center;
+    color: black;
+    background-color: pink;
+
+    /*Margen interno*/
+    padding: 20px;
+
+    /*Margen externo*/
+    margin: 30px;
+}
+
+#caja, #caja-2 {
+    background-color: black;
+}
+
+#caja {
+    height: 200px;
+    width: 400px;
+    /*margin: 0 auto;*/
+
+    /*Margen superior*/
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#caja p, #caja-2 p {
+    color: pink;
+}
+
